@@ -101,7 +101,7 @@ pytest base/tests/
 
 ## 🙏 Credits
 
-Created and maintained by [Your Name] and contributors. Inspired by the flexibility of tools like Lodash, Ramda, and Python's `functools`.
+Inspired by the flexibility of tools like Lodash, Ramda, and Python's `functools`.
 
 ---
 
