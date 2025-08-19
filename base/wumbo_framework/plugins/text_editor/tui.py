@@ -1,4 +1,3 @@
-Wumbo/base/wumbo_framework/plugins/text_editor/tui.py
 """
 tui.py
 
@@ -15,14 +14,13 @@ Features:
 - Command palette for running plugin/editor commands
 - Launch GUI mode from the TUI
 
-Author: [Your Name]
-Date: [YYYY-MM-DD]
+
 """
 
 from prompt_toolkit.application import Application
 from prompt_toolkit.key_binding import KeyBindings
 from prompt_toolkit.layout import Layout, HSplit, VSplit, Window
-from prompt_toolkit.widgets import TextArea, Frame, Button, Dialog, Label, MenuContainer, MenuItem
+from prompt_toolkit.widgets import TextArea, Frame
 from prompt_toolkit.shortcuts import message_dialog, input_dialog
 from prompt_toolkit.styles import Style
 from prompt_toolkit.layout.controls import FormattedTextControl
@@ -99,7 +97,6 @@ class WumboTUI:
     def __init__(self):
         self.editor = TextEditor()
         auto_register_all_plugins(self.editor)
-        self.current_buffer = None
         self.buffers = self.editor.buffers
 
         # Main text area
