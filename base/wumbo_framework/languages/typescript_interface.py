@@ -13,11 +13,12 @@ import subprocess
 from typing import Any, Dict, List, Optional, Union
 from pathlib import Path
 
-from .core import (
+from wumbo_framework.core import (
     LanguageInterface, LanguageRuntime, SerializationConfig, SupportedLanguage,
     ProcessExecutionMixin, DataSerializer, SecuritySandbox
 )
-from ..core.base import ExecutionContext, ExecutionResult
+from wumbo_framework.core.base import ExecutionContext, ExecutionResult
+
 
 
 class TypeScriptInterface(LanguageInterface, ProcessExecutionMixin):
@@ -538,7 +539,7 @@ def create_typescript_template(code: str, **config) -> 'MultiLanguageTemplate':
         ... ''')
         >>> result = template(1, 2, 3)
     """
-    from .core import MultiLanguageTemplate, LanguageRuntime
+    from ..core import MultiLanguageTemplate, LanguageRuntime
 
     # Create default runtime configuration
     runtime = LanguageRuntime(

@@ -12,7 +12,7 @@ import subprocess
 from typing import Any, Dict, List, Optional, Union
 from pathlib import Path
 
-from .core import (
+from ..core import (
     LanguageInterface, LanguageRuntime, SerializationConfig, SupportedLanguage,
     ProcessExecutionMixin, DataSerializer, SecuritySandbox
 )

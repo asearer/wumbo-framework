@@ -18,7 +18,7 @@ from typing import Any, Dict, List, Optional, Set
 import json
 import logging
 
-from .core import (
+from ..core import (
     LanguageInterface, SupportedLanguage, LanguageRuntime,
     SerializationConfig, ExecutionEnvironment, SecuritySandbox,
     DataSerializer, ProcessExecutionMixin, language_interface

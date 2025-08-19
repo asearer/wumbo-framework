@@ -21,7 +21,7 @@ Features:
 
 import logging
 from typing import Dict, List, Optional, Type, Any
-from .core import (
+from ..core import (
     LanguageInterface,
     LanguageInterfaceRegistry,
     LanguageRuntime,

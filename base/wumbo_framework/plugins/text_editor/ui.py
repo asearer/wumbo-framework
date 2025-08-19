@@ -34,7 +34,7 @@ class TextEditorShell(cmd.Cmd):
         auto_register_all_plugins(self.editor)
 
     def do_open(self, arg):
-        "Open a file: open <filename>"
+        """Open a file: open <filename>"""
         filename = arg.strip()
         if not filename:
             print("Usage: open <filename>")
