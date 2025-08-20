@@ -1,4 +1,4 @@
-Wumbo/base/wumbo_framework/plugins/algorithm_wizard/use_cases.py
+
 """
 algorithm_wizard.use_cases
 --------------------------

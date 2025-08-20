@@ -1,4 +1,4 @@
-Wumbo/base/wumbo_framework/plugins/data_structure_wizard/structure_creator.py
+
 """
 structure_creator.py
 

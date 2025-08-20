@@ -27,3 +27,11 @@ class BaseTemplate:
         Override in subclasses for language-specific behavior.
         """
         return self.content.format(**context)
+
+
+class ExecutionContext:
+    pass
+
+
+class ExecutionResult:
+    pass

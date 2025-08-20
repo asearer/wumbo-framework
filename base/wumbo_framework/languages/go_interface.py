@@ -1,5 +1,5 @@
 """
-🌀 Wumbo Framework - Go Language Interface
+Wumbo Framework - Go Language Interface
 
 This module provides Go language support for the Wumbo framework,
 enabling templates to be written in Go and executed via Go runtime.

@@ -1,4 +1,4 @@
-Wumbo/base/wumbo_framework/plugins/algorithm_wizard/algorithm_selector.py
+
 """
 algorithm_selector.py
 

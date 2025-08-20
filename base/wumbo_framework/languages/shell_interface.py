@@ -1,5 +1,5 @@
 """
-🌀 Wumbo Framework - Shell Scripting Language Interface
+Wumbo Framework - Shell Scripting Language Interface
 
 This module provides shell scripting language support for the Wumbo framework,
 enabling templates to be written in shell script and executed via system shell.

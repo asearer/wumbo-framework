@@ -6,3 +6,41 @@
 # Example: from .registry import Registry
 
 # For now, this file is intentionally left minimal.
+class LanguageInterface:
+    pass
+
+
+class LanguageRuntime:
+    pass
+
+
+class SerializationConfig:
+    pass
+
+
+class SupportedLanguage:
+    pass
+
+
+class ProcessExecutionMixin:
+    pass
+
+
+class DataSerializer:
+    pass
+
+
+class SecuritySandbox:
+    pass
+
+
+class ExecutionEnvironment:
+    pass
+
+
+def language_interface():
+    return None
+
+
+class MultiLanguageTemplate:
+    pass

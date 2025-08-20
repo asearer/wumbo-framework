@@ -1,4 +1,3 @@
-# Python
 
 """
 algorithm_creator.py
@@ -259,3 +258,5 @@ algorithm_registry.register("bubble_sort", bubble_sort, bubble_sort_metadata)
 # Usage example (uncomment to use):
 # sorted_list = algorithm_registry.get_or_raise("bubble_sort")([5, 2, 9, 1])
 # print(sorted_list)
+def create_algorithm():
+    return None

@@ -1,4 +1,4 @@
-Wumbo/base/wumbo_framework/plugins/data_structure_wizard/structure_selector.py
+
 """
 structure_selector.py
 

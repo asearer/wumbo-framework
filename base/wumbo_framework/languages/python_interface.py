@@ -1,5 +1,5 @@
 """
-🌀 Wumbo Framework - Python Language Interface
+Wumbo Framework - Python Language Interface
 
 This module provides the Python language interface implementation,
 enabling Python templates to be executed within the multi-language

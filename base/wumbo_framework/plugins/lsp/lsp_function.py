@@ -1,4 +1,4 @@
-Wumbo/base/wumbo_framework/plugins/lsp/lsp_function.py
+
 """
 lsp_function.py
 

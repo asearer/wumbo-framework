@@ -1,5 +1,5 @@
 """
-🌀 Wumbo Framework - TypeScript Language Interface
+Wumbo Framework - TypeScript Language Interface
 
 This module provides TypeScript language support for the Wumbo framework,
 enabling templates to be written in TypeScript and executed via Node.js runtime

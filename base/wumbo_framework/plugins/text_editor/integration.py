@@ -6,8 +6,7 @@ It enables dynamic discovery and registration of other plugins (such as
 algorithm wizard, data structure wizard, LSP, etc.) with the text editor,
 so their commands and features are natively available within the editor.
 
-Author: [Your Name]
-Date: [YYYY-MM-DD]
+
 """
 
 import importlib

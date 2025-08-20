@@ -1,5 +1,5 @@
 """
-🌀 Wumbo Framework - JavaScript/Node.js Language Interface
+Wumbo Framework - JavaScript/Node.js Language Interface
 
 This module provides JavaScript/Node.js language support for the Wumbo framework,
 enabling templates to be written in JavaScript and executed via Node.js runtime.
