@@ -48,37 +48,6 @@ Wumbo/
 └── .ropeproject/            # IDE/project metadata (optional)
 ```
 
----
-
-## 🧭 Getting Started
-
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/yourusername/wumbo.git
-    cd wumbo
-    ```
-
-2. **Install dependencies:**
-    ```bash
-    cd base
-    pip install -r requirements.txt
-    ```
-
-3. **Explore the framework:**
-    - See `base/README.md` for core usage.
-    - Browse plugins in `base/wumbo_framework/plugins/`.
-    - Review documentation in `base/docs/`.
-
----
-
-## 🧩 Extending Wumbo
-
-- Add new plugins by creating a subdirectory in `base/wumbo_framework/plugins/`.
-- Implement new language interfaces in `base/wumbo_framework/languages/`.
-- Contribute templates or utilities to their respective directories.
-- See `base/docs/CONTRIBUTING.md` for guidelines.
-
----
 
 ## 📚 Documentation
 
@@ -93,11 +62,6 @@ Wumbo/
 
 All tests are located in `base/tests/`. Run with your preferred test runner, e.g.:
 
-```bash
-pytest base/tests/
-```
-
----
 
 ## 🙏 Credits
 
